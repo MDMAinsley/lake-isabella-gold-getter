@@ -1,5 +1,4 @@
-('C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\build\\completer\\Lake '
- 'Isabella Gold Getter.pkg',
+('C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\build\\completer\\Lake_Isabella_Gold_Getter.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,

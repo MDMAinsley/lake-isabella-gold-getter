@@ -23,8 +23,8 @@ def check_for_update(current_version, latest_version_url):
 
 
 def main():
-    main_application_name = "Lake Isabella Gold Getter.exe"
-    updater_application_name = "Lake Isabella Gold Getter Updater.exe"
+    main_application_name = "Lake_Isabella_Gold_Getter.exe"
+    updater_application_name = "Lake_Isabella_Gold_Getter_Updater.exe"
     app_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     app_exe_path = os.path.join(app_dir, main_application_name)
     current_version = get_current_version(app_exe_path)

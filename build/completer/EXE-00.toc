@@ -1,5 +1,4 @@
-('C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\dist\\Lake '
- 'Isabella Gold Getter.exe',
+('C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\dist\\Lake_Isabella_Gold_Getter.exe',
  True,
  False,
  False,
@@ -30,8 +29,7 @@
  None,
  None,
  None,
- 'C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\build\\completer\\Lake '
- 'Isabella Gold Getter.pkg',
+ 'C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\build\\completer\\Lake_Isabella_Gold_Getter.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\build\\completer\\PYZ-00.pyz',
@@ -471,7 +469,7 @@
  [],
  False,
  False,
- 1720737230,
+ 1720737674,
  [('run.exe',
    'C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

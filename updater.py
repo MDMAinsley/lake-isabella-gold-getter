@@ -15,7 +15,7 @@ def download_latest_version(download_url, download_path):
 def main():
     owner = "MDMAinsley"
     repo = "lake-isabella-gold-getter"
-    main_application_name = "Lake Isabella Gold Getter.exe"
+    main_application_name = "Lake_Isabella_Gold_Getter.exe"
     app_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     current_exe_path = os.path.join(app_dir, main_application_name)
     download_path = os.path.join(app_dir, "latest_version.exe")

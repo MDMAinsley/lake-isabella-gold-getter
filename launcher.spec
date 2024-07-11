@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Lake Isabella Gold Getter Launcher',
+    name='Lake_Isabella_Gold_Getter_Launcher',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
