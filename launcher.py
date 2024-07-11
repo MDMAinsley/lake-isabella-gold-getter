@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+import time
 
 import requests
 
@@ -28,6 +29,8 @@ def main():
     app_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     app_exe_path = os.path.join(app_dir, main_application_name)
     current_version = get_current_version(app_exe_path)
+    current_version = current_version.split(".html", 1)[1]
+    current_version = current_version.strip()
     owner = "MDMAinsley"
     repo = "lake-isabella-gold-getter"
     latest_version_url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
