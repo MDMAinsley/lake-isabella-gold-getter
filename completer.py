@@ -1,13 +1,15 @@
 import os
 import random
 import sys
+import time
 
+import cv2
 import pygame
 import pygetwindow as gw
-
 from directkeys import *
 
-__version__ = "1.0.0"
+
+__version__ = "1.0.1"
 
 strafe_time = 3
 
@@ -144,6 +146,15 @@ def need_tutorial():
               "your screen\nNow standing just towards the edge of the lake, line up your reticle to the middle of "
               "the tree trunk.\nOn your map, the arrow for North should be in-line with the top right of the Health "
               "Bar Circle")
+        # Load an image
+        img = cv2.imread('image.jpg')
+        # Display the image
+        cv2.imshow('Current View', img)
+        time.sleep(1)
+        bring_window_to_front("Current View")
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+        print("You should have the same (very similar) view right now...")
         input("\nStep 5a: Now we decide how much treasure you want! (The following is the normal program)")
 
     print("")
@@ -189,7 +200,11 @@ def bring_window_to_front(window_title):
                 window[0].activate()
                 # print("Brought '", window_title, "' to the Front.")
             except Exception as e:
-                print(f"Error: {e}")
+                if "successfully." in str(e).split():
+                    do = "nothing"
+                else:
+                    print(f"Error: {e}")
+
                 window[0].minimize()
                 window[0].restore()
                 # print("Brought '", window_title, "' to the Front.")

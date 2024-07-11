@@ -1,8 +1,7 @@
+import ctypes
 import os
 import subprocess
 import sys
-import time
-
 import requests
 
 
@@ -24,6 +23,7 @@ def check_for_update(current_version, latest_version_url):
 
 
 def main():
+    ctypes.windll.kernel32.SetConsoleTitleW("Lake Isabella Gold Getter Launcher")
     main_application_name = "Lake_Isabella_Gold_Getter.exe"
     updater_application_name = "Lake_Isabella_Gold_Getter_Updater.exe"
     app_dir = os.path.dirname(os.path.abspath(sys.argv[0]))

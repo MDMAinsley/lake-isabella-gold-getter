@@ -1,7 +1,7 @@
+import ctypes
 import os
 import shutil
 import sys
-
 import requests
 
 
@@ -13,6 +13,7 @@ def download_latest_version(download_url, download_path):
 
 
 def main():
+    ctypes.windll.kernel32.SetConsoleTitleW("Lake Isabella Gold Getter Updater")
     owner = "MDMAinsley"
     repo = "lake-isabella-gold-getter"
     main_application_name = "Lake_Isabella_Gold_Getter.exe"
