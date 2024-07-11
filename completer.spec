@@ -28,7 +28,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='LIGG',
+    name='Lake Isabella Gold Getter',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

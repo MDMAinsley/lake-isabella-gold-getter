@@ -7,6 +7,8 @@ import pygetwindow as gw
 
 from directkeys import *
 
+__version__ = "1.0.0"
+
 strafe_time = 3
 
 sound_directory = 'sounds'
@@ -20,6 +22,10 @@ finishing_sounds = [
 
 
 def main():
+    if "--version" in sys.argv:
+        print(__version__)
+        return
+    print("Running application version", __version__)
     try:
         window_setup()
 

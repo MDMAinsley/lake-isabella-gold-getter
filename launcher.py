@@ -23,13 +23,13 @@ def check_for_update(current_version, latest_version_url):
 
 
 def main():
-    main_application_name = "application.exe"
-    updater_application_name = "updater.exe"
+    main_application_name = "Lake Isabella Gold Getter.exe"
+    updater_application_name = "Lake Isabella Gold Getter Updater.exe"
     app_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     app_exe_path = os.path.join(app_dir, main_application_name)
     current_version = get_current_version(app_exe_path)
-    owner = "username"
-    repo = "repo_name"    
+    owner = "MDMAinsley"
+    repo = "lake-isabella-gold-getter"
     latest_version_url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
     updater_path = os.path.join(app_dir, updater_application_name)
 
