@@ -1,15 +1,13 @@
 import os
 import random
 import sys
-import time
-
 import cv2
 import pygame
 import pygetwindow as gw
+
 from directkeys import *
 
-
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 strafe_time = 3
 
@@ -147,7 +145,7 @@ def need_tutorial():
               "the tree trunk.\nOn your map, the arrow for North should be in-line with the top right of the Health "
               "Bar Circle")
         # Load an image
-        img = cv2.imread('image.jpg')
+        img = cv2.imread(str(resource_path('image.jpg')))
         # Display the image
         cv2.imshow('Current View', img)
         time.sleep(1)

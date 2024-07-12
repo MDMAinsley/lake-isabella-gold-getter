@@ -19,6 +19,7 @@ a.datas += [('sounds\\finished1.mp3','C:\\Users\\MDMAinsley\\OneDrive\\git-proje
 a.datas += [('sounds\\finished2.mp3','C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\sounds\\finished2.mp3', "DATA")]
 a.datas += [('sounds\\finished3.mp3','C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\sounds\\finished3.mp3', "DATA")]
 a.datas += [('sounds\\finished4.mp3','C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\sounds\\finished4.mp3', "DATA")]
+a.datas += [('image.jpg','C:\\Users\\MDMAinsley\\OneDrive\\git-projects\\python-projects\\LakeIsabella\\image.jpg', "DATA")]
 
 pyz = PYZ(a.pure)
 
